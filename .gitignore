@@ -1,0 +1,11 @@
+# Byte-compiled / optmized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+env/
+build/
+dist/
+
+# Editor
+.vscode/
