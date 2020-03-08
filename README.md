@@ -30,8 +30,9 @@ You can also:
 $ cd path/to/repo
 $ python3 -m venv env
 $ pip install -r requirements.txt
-$ source ./env/bin/activate
 ```
+In the future to activate the virtual env use `$ source ./env/bin/activate`
+
 2. Install npm dependencies
 ```sh
 $ cd ./templates/static
