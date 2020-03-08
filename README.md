@@ -38,13 +38,19 @@ $ npm install
 ```
 
 # Running
-1. In one console init webpack module bundler
+1. In one terminal init webpack module bundler
 ```sh
 $ npm run watch
 ```
-2. In other console init flask back-end
+2. In other terminal init flask back-end
 ```sh
 $ python3 ./run.py
+```
+# Stopping
+1. `CTRL+C` in both terminals
+2. If you want you can terminate the python env with 
+```sh 
+$ deactivate
 ```
 
 License
