@@ -28,8 +28,9 @@ You can also:
 1. Activate python env and install dependencies
 ```sh
 $ cd path/to/repo
-$ source ./env/bin/activate
+$ python3 -m venv env
 $ pip install -r requirements.txt
+$ source ./env/bin/activate
 ```
 2. Install npm dependencies
 ```sh
@@ -38,14 +39,15 @@ $ npm install
 ```
 
 # Running
-1. In one terminal init webpack module bundler
+1. In one terminal move to `./templates/static` and init webpack module bundler
 ```sh
 $ npm run watch
 ```
-2. In other terminal init flask back-end
+2. In other terminal move to root folder and init flask back-end
 ```sh
 $ python3 ./run.py
 ```
+
 # Stopping
 1. `CTRL+C` in both terminals
 2. If you want you can terminate the python env with 
