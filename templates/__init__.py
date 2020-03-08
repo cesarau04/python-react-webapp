@@ -4,4 +4,8 @@ app = Flask(__name__,
             static_folder='./public',
             template_folder="./static")
 
-import templates.hello.views
+# * Don't move this upwards
+from templates.hello.views import hello_blueprint
+
+# register blueprint
+app.register_blueprint(hello_blueprint)
