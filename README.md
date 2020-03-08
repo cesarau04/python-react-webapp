@@ -10,6 +10,7 @@ Characteristics:
 # Cloning
   - Using HTTP: `git clone https://github.com/cesarau04/python-react-webapp.git`
   - Using SSH: `git clone git@github.com:cesarau04/python-react-webapp.git`
+
 You can also:
   - Download a [zip file][link-zip]
 
@@ -37,11 +38,11 @@ $ npm install
 ```
 
 # Running
-1. Init webpack module bundler
+1. In one console init webpack module bundler
 ```sh
 $ npm run watch
 ```
-2. Init flask back-end
+2. In other console init flask back-end
 ```sh
 $ python3 ./run.py
 ```
