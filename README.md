@@ -29,6 +29,7 @@ You can also:
 ```sh
 $ cd path/to/repo
 $ python3 -m venv env
+$ source ./env/bin/activate
 $ pip install -r requirements.txt
 ```
 In the future to activate the virtual env use `$ source ./env/bin/activate`
