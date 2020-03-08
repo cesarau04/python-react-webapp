@@ -9,6 +9,7 @@ dist/
 
 # npm
 templates/static/node_modules/
+templates/public/bundle.js
 
 # Editor
 .vscode/
