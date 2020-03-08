@@ -51,5 +51,10 @@ License
 ----
 ISC
 
+Credits
+-------
+Based on [eyong kevin][author] tutorial
+
 [link-zip]: <https://github.com/cesarau04/python-react-webapp/archive/master.zip>
+[author]: <https://itnext.io/a-template-for-creating-a-full-stack-web-application-with-flask-npm-webpack-and-reactjs-be2294b111bd>
 
